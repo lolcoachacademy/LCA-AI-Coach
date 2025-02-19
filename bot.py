@@ -32,4 +32,4 @@ async def on_message(message):
         response = requests.post(WEBHOOK_URL, json=payload)
 
         if response.status_code == 200:
-            await message.channel.send("Processing your question..
+            await message.channel.send("Processing your question...")
